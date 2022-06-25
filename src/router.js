@@ -3,12 +3,12 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 import Form from './components/Form.vue'
-import Componente from './components/Componente.vue'
+import Usuarios from './components/Usuarios.vue'
 
 export const router = new VueRouter({
     mode: 'history',
     routes: [
         { path: '/form', component: Form },
-        { path: '/componente', component: Componente },
+        { path: '/usuarios', component: Usuarios },
     ]
 })

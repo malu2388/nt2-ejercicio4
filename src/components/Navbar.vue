@@ -25,8 +25,8 @@
         </li>
 
         <li class="nav-item">
-          <router-link to="/componente">
-            <a class="nav-link" href="#">Componente</a>
+          <router-link to="/usuarios">
+            <a class="nav-link" href="#">Usuarios</a>
           </router-link>
         </li>
       </ul>
@@ -35,7 +35,7 @@
 </div>
 </template>
 
-<script lang="js">
+<script>
 
   export default  {
     name: 'src-components-navbar',

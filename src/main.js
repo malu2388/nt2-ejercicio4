@@ -7,6 +7,7 @@ import 'popper.js'
 import 'bootstrap'
 import { router } from './router'
 import './form'
+import './axios'
 
 Vue.config.productionTip = false
 

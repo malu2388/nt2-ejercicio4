@@ -114,7 +114,7 @@
   </section>
 </template>
 
-<script lang="js">
+<script>
   export default  {
     name: 'src-components-form',
     props: [],
